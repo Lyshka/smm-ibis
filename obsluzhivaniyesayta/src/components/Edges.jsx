@@ -5,7 +5,7 @@ const Edges = () => {
         <h2>Преимущества наших сайтов</h2>
 
         <div className="mt-6 flex justify-between items-center">
-          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-[317px] h-[224px] px-[33px] py-6">
+          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-[350px] h-[380px] px-[33px] py-6">
             <svg
               width="64"
               height="64"
@@ -23,15 +23,16 @@ const Edges = () => {
               />
             </svg>
 
-            <h3 className="mt-4">Узнаваемость бренда</h3>
+            <h3 className="mt-4 text-center">Регулярные обновления и безопасность</h3>
 
             <p className="text-center text-sm">
-              Учитываем ваши идеи и фирменный стиль организации. Увеличиваем
-              количество клиентов, так же повышаем узнаваемость бренда
+              Мы обеспечиваем постоянное обновление вашего сайта, следим за его
+              безопасностью и защищаем от угроз, что обеспечивает надежную и
+              стабильную работу онлайн-платформы.
             </p>
           </div>
 
-          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-[317px] h-[224px] px-[33px] py-6">
+          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-[350px] h-[380px] px-[33px] py-6">
             <svg
               width="64"
               height="64"
@@ -57,15 +58,18 @@ const Edges = () => {
               />
             </svg>
 
-            <h3 className="mt-4">Понятный интерфейс</h3>
+            <h3 className="mt-4 text-center">
+              Профессиональная поддержка и быстрое реагирование
+            </h3>
 
             <p className="text-center text-sm">
-              Благодаря нашему креативному отделу мы доносим до клиента главные
-              преимущества продукта или услуги
+              Наша команда технической поддержки всегда готова помочь и ответить
+              на ваши вопросы. Мы гарантируем быстрое реагирование на любые
+              запросы, что позволяет избежать простоев и проблем на сайте.
             </p>
           </div>
 
-          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-[317px] h-[224px] px-[33px] py-6">
+          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-[350px] h-[380px] px-[33px] py-6">
             <svg
               width="64"
               height="64"
@@ -115,11 +119,13 @@ const Edges = () => {
               />
             </svg>
 
-            <h3 className="mt-4">Надежный сервис</h3>
+            <h3 className="mt-4 text-center">Повышение производительности и оптимизация</h3>
 
             <p className="text-center text-sm">
-              Наш отдел разработки обеспечит стабильную и беспрерывную работу
-              вашего сервиса или сайта
+              Мы оптимизируем ваш сайт для более эффективной работы, что
+              повышает его производительность и ускоряет загрузку страниц. Это
+              улучшает пользовательский опыт и способствует увеличению конверсии
+              и доходов.
             </p>
           </div>
         </div>

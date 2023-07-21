@@ -2,7 +2,7 @@ const EdgesMobile = () => {
   return (
     <div className="mt-10 flex justify-center items-center">
       <div className="flex flex-col w-[288px] justify-center items-center">
-        <h2>Преимущества наших сайтов</h2>
+        <h2>Почему стоит заказать контекстную рекламу?</h2>
 
         <div className="mt-6 flex flex-col gap-y-6 justify-between items-center">
           <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-full h-[224px] px-[33px] py-6">
@@ -23,11 +23,10 @@ const EdgesMobile = () => {
               />
             </svg>
 
-            <h3 className="mt-4">Узнаваемость бренда</h3>
+            <h3 className="mt-4 text-center">Точное таргетирование</h3>
 
             <p className="text-center text-sm">
-              Учитываем ваши идеи и фирменный стиль организации. Увеличиваем
-              количество клиентов, так же повышаем узнаваемость бренда
+              Привлекаем заинтересованную аудиторию благодаря ключевым словам.
             </p>
           </div>
 
@@ -57,11 +56,10 @@ const EdgesMobile = () => {
               />
             </svg>
 
-            <h3 className="mt-4">Понятный интерфейс</h3>
+            <h3 className="mt-4 text-center">Гибкий контроль бюджета</h3>
 
             <p className="text-center text-sm">
-              Благодаря нашему креативному отделу мы доносим до клиента главные
-              преимущества продукта или услуги
+              Эффективно распределяем рекламные затраты по вашим требованиям.
             </p>
           </div>
 
@@ -115,11 +113,11 @@ const EdgesMobile = () => {
               />
             </svg>
 
-            <h3 className="mt-4">Надежный сервис</h3>
+            <h3 className="mt-4 text-center">Высокая конверсия</h3>
 
             <p className="text-center text-sm">
-              Наш отдел разработки обеспечит стабильную и беспрерывную работу
-              вашего сервиса или сайта
+              Увеличиваем число клиентов, привлекая заинтересованных
+              пользователей.
             </p>
           </div>
         </div>
