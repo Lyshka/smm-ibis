@@ -1,0 +1,1 @@
+export {default as MainPrice} from "./MainPrice"

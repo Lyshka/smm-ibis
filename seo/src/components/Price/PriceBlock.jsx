@@ -1,0 +1,96 @@
+import { useState } from "react";
+
+const PriceBlock = ({ priceByn, priceRub, services }) => {
+  const [block, setblock] = useState(false);
+
+  const handleBlock = () => {
+    setblock((prv) => !prv);
+  };
+
+  return (
+    <div className="w-[317px] rounded-2xl shadowPrice">
+      <h3 className="px-6 py-4">SEO продвижение сайта включает:</h3>
+
+      <div className="bg-[#FF3A2D] p-6 text-white w-full">
+        <div className="flex text-lg flex-col gap-y-8">
+          <p className="font-bold text-center">
+            от <span className="font-black text-[56px]">{priceByn}</span> BYN
+          </p>
+
+          <p className="font-bold text-center">
+            от <span className="font-black text-[56px]">{priceRub}</span> RUB
+          </p>
+
+          <p className="text-lg font-black leading-6">(но не менее 3 мес.)</p>
+
+          <p className="font-semibold leading-6 w-[280px]">
+            3 месяца фикс 700 BYN; с 4-ого месяца фикс 500 BYN + бонусы за
+            запросы, которые в ТОП-10
+          </p>
+        </div>
+      </div>
+
+      <div className="flex flex-col">
+        <div
+          onClick={handleBlock}
+          className="flex gap-x-2 justify-center cursor-pointer items-center w-full h-14"
+        >
+          <span className="font-bold">Подробнее</span>
+
+          <svg
+            className={`${!block ? "block" : "hidden"}`}
+            width="17"
+            height="16"
+            viewBox="0 0 17 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4.5 6L8.5 10L12.5 6"
+              stroke="#333333"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+
+          <svg
+            className={`${block ? "block" : "hidden"}`}
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 10L8 6L4 10"
+              stroke="#333333"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </div>
+
+        {block && (
+          <div className="flex flex-col">
+            {services.map((el, idx) => (
+              <span className={`px-6 py-4 ${idx % 2 !== 0 && "bg-[#F4F4F4]"}`}>
+                {el}
+              </span>
+            ))}
+          </div>
+        )}
+      </div>
+
+      <div className="flex justify-center items-center p-6">
+        <a href="#form">
+          <button className="mt-6 border-2 rounded-full px-6 py-3 w-full hover:bg-[#FF3A2D] hover:text-white border-[#FF3A2D] font-extrabold text-sm">
+            ПОЛУЧИТЬ КП
+          </button>
+        </a>
+      </div>
+    </div>
+  );
+};
+export default PriceBlock;
