@@ -2,10 +2,10 @@ const Edges = () => {
   return (
     <div>
       <div className="flex flex-col">
-        <h2>Преимущества наших сайтов</h2>
+        <h2>Почему стоит выбрать продвижение в TikTok?</h2>
 
         <div className="mt-6 flex justify-between items-center">
-          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-[317px] h-[224px] px-[33px] py-6">
+          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-[317px] h-[300px] px-[33px] py-6">
             <svg
               width="64"
               height="64"
@@ -23,15 +23,16 @@ const Edges = () => {
               />
             </svg>
 
-            <h3 className="mt-4">Узнаваемость бренда</h3>
+            <h3 className="mt-4 text-center">Популярность среди молодежи</h3>
 
             <p className="text-center text-sm">
-              Учитываем ваши идеи и фирменный стиль организации. Увеличиваем
-              количество клиентов, так же повышаем узнаваемость бренда
+              Платформа привлекает активную и широкую аудиторию, в основном из
+              молодежи, что предоставляет уникальную возможность привлечь новую
+              аудиторию к вашему бренду или продукту.
             </p>
           </div>
 
-          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-[317px] h-[224px] px-[33px] py-6">
+          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-[317px] h-[300px] px-[33px] py-6">
             <svg
               width="64"
               height="64"
@@ -57,15 +58,17 @@ const Edges = () => {
               />
             </svg>
 
-            <h3 className="mt-4">Понятный интерфейс</h3>
+            <h3 className="mt-4 text-center">Креативные возможности</h3>
 
             <p className="text-center text-sm">
-              Благодаря нашему креативному отделу мы доносим до клиента главные
-              преимущества продукта или услуги
+              TikTok предоставляет множество инструментов для создания
+              оригинального и привлекательного контента, таких как музыкальные
+              дуэты, фильтры и спецэффекты, что позволяет выделиться среди
+              конкурентов и привлечь внимание зрителей.
             </p>
           </div>
 
-          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-[317px] h-[224px] px-[33px] py-6">
+          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-[317px] h-[300px] px-[33px] py-6">
             <svg
               width="64"
               height="64"
@@ -115,11 +118,12 @@ const Edges = () => {
               />
             </svg>
 
-            <h3 className="mt-4">Надежный сервис</h3>
+            <h3 className="mt-4 text-center">Вирусный потенциал</h3>
 
             <p className="text-center text-sm">
-              Наш отдел разработки обеспечит стабильную и беспрерывную работу
-              вашего сервиса или сайта
+              Захватывающий контент на TikTok может стать вирусным и быстро
+              распространиться, что дает шанс быстро набрать популярность и
+              увеличить охват вашего бренда или видео.
             </p>
           </div>
         </div>

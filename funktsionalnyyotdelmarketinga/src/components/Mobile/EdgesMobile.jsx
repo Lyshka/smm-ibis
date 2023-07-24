@@ -2,10 +2,10 @@ const EdgesMobile = () => {
   return (
     <div className="mt-10 flex justify-center items-center">
       <div className="flex flex-col w-[288px] justify-center items-center">
-        <h2>Преимущества наших сайтов</h2>
+        <h2>Весь спектр маркетинговых услуг для вашей компании</h2>
 
         <div className="mt-6 flex flex-col gap-y-6 justify-between items-center">
-          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-full h-[224px] px-[33px] py-6">
+          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-full h-full px-[33px] py-6">
             <svg
               width="64"
               height="64"
@@ -23,15 +23,15 @@ const EdgesMobile = () => {
               />
             </svg>
 
-            <h3 className="mt-4">Узнаваемость бренда</h3>
+            <h3 className="mt-4 text-center">Исследование рынка и анализ</h3>
 
             <p className="text-center text-sm">
-              Учитываем ваши идеи и фирменный стиль организации. Увеличиваем
-              количество клиентов, так же повышаем узнаваемость бренда
+              Анализирует рыночные тенденции, конкурентов и потребности клиентов
+              для определения эффективных стратегий маркетинга.
             </p>
           </div>
 
-          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-full h-[224px] px-[33px] py-6">
+          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-full h-full px-[33px] py-6">
             <svg
               width="64"
               height="64"
@@ -57,15 +57,17 @@ const EdgesMobile = () => {
               />
             </svg>
 
-            <h3 className="mt-4">Понятный интерфейс</h3>
+            <h3 className="mt-4 text-center">
+              Разработка маркетинговых стратегий
+            </h3>
 
             <p className="text-center text-sm">
-              Благодаря нашему креативному отделу мы доносим до клиента главные
-              преимущества продукта или услуги
+              Создает планы и стратегии, направленные на привлечение и удержание
+              клиентов, а также на повышение узнаваемости и успеха бренда.
             </p>
           </div>
 
-          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-full h-[224px] px-[33px] py-6">
+          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-full h-full px-[33px] py-6">
             <svg
               width="64"
               height="64"
@@ -115,11 +117,15 @@ const EdgesMobile = () => {
               />
             </svg>
 
-            <h3 className="mt-4">Надежный сервис</h3>
+            <h3 className="mt-4 text-center">
+              Реализация маркетинговых кампаний
+            </h3>
 
             <p className="text-center text-sm">
-              Наш отдел разработки обеспечит стабильную и беспрерывную работу
-              вашего сервиса или сайта
+              Отвечает за запуск и выполнение рекламных и маркетинговых
+              инициатив, включая цифровой маркетинг, контент-стратегии и
+              таргетированную рекламу, с целью достижения конкретных
+              маркетинговых показателей.
             </p>
           </div>
         </div>

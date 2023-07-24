@@ -2,10 +2,10 @@ const EdgesMobile = () => {
   return (
     <div className="mt-10 flex justify-center items-center">
       <div className="flex flex-col w-[288px] justify-center items-center">
-        <h2>Преимущества наших сайтов</h2>
+        <h2>Для чего нужен видео контент?</h2>
 
         <div className="mt-6 flex flex-col gap-y-6 justify-between items-center">
-          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-full h-[224px] px-[33px] py-6">
+          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-full h-full px-[33px] py-6">
             <svg
               width="64"
               height="64"
@@ -23,15 +23,16 @@ const EdgesMobile = () => {
               />
             </svg>
 
-            <h3 className="mt-4">Узнаваемость бренда</h3>
+            <h3 className="mt-4 text-center">Привлекательный контент</h3>
 
             <p className="text-center text-sm">
-              Учитываем ваши идеи и фирменный стиль организации. Увеличиваем
-              количество клиентов, так же повышаем узнаваемость бренда
+              Видео является одним из самых привлекательных форматов контента,
+              что позволяет эффективно привлекать внимание и удерживать интерес
+              аудитории.
             </p>
           </div>
 
-          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-full h-[224px] px-[33px] py-6">
+          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-full h-full px-[33px] py-6">
             <svg
               width="64"
               height="64"
@@ -57,15 +58,16 @@ const EdgesMobile = () => {
               />
             </svg>
 
-            <h3 className="mt-4">Понятный интерфейс</h3>
+            <h3 className="mt-4 text-center">Наглядное представление</h3>
 
             <p className="text-center text-sm">
-              Благодаря нашему креативному отделу мы доносим до клиента главные
-              преимущества продукта или услуги
+              Видео позволяет наглядно демонстрировать продукты, услуги или
+              идеи, что помогает лучше коммуницировать с целевой аудиторией и
+              донести ваше сообщение.
             </p>
           </div>
 
-          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-full h-[224px] px-[33px] py-6">
+          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-full h-full px-[33px] py-6">
             <svg
               width="64"
               height="64"
@@ -115,11 +117,12 @@ const EdgesMobile = () => {
               />
             </svg>
 
-            <h3 className="mt-4">Надежный сервис</h3>
+            <h3 className="mt-4 text-center">Профессиональное исполнение</h3>
 
             <p className="text-center text-sm">
-              Наш отдел разработки обеспечит стабильную и беспрерывную работу
-              вашего сервиса или сайта
+              Продакшн команды обладают опытом и знаниями для создания
+              высококачественного видео с учетом всех необходимых аспектов, что
+              делает ваш контент более привлекательным и профессиональным.
             </p>
           </div>
         </div>

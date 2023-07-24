@@ -2,10 +2,10 @@ const EdgesMobile = () => {
   return (
     <div className="mt-10 flex justify-center items-center">
       <div className="flex flex-col w-[288px] justify-center items-center">
-        <h2>Преимущества наших сайтов</h2>
+        <h2>Почему стоит выбрать продвижение на маркетплейсах?</h2>
 
         <div className="mt-6 flex flex-col gap-y-6 justify-between items-center">
-          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-full h-[224px] px-[33px] py-6">
+          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-full h-full px-[33px] py-6">
             <svg
               width="64"
               height="64"
@@ -23,15 +23,16 @@ const EdgesMobile = () => {
               />
             </svg>
 
-            <h3 className="mt-4">Узнаваемость бренда</h3>
+            <h3 className="mt-4 text-center">Широкая аудитория</h3>
 
             <p className="text-center text-sm">
-              Учитываем ваши идеи и фирменный стиль организации. Увеличиваем
-              количество клиентов, так же повышаем узнаваемость бренда
+              Маркетплейсы объединяют огромное количество покупателей, что
+              позволяет достичь широкой и разнообразной аудитории,
+              заинтересованной в вашем товаре или услуге.
             </p>
           </div>
 
-          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-full h-[224px] px-[33px] py-6">
+          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-full h-full px-[33px] py-6">
             <svg
               width="64"
               height="64"
@@ -57,15 +58,16 @@ const EdgesMobile = () => {
               />
             </svg>
 
-            <h3 className="mt-4">Понятный интерфейс</h3>
+            <h3 className="mt-4 text-center">Доверие платформы</h3>
 
             <p className="text-center text-sm">
-              Благодаря нашему креативному отделу мы доносим до клиента главные
-              преимущества продукта или услуги
+              Брендированные маркетплейсы находятся в доверии покупателей, что
+              способствует повышению доверия к вашему продукту или услуге и
+              может увеличить конверсию.
             </p>
           </div>
 
-          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-full h-[224px] px-[33px] py-6">
+          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-full h-full px-[33px] py-6">
             <svg
               width="64"
               height="64"
@@ -115,11 +117,13 @@ const EdgesMobile = () => {
               />
             </svg>
 
-            <h3 className="mt-4">Надежный сервис</h3>
+            <h3 className="mt-4 text-center">Маркетинговые инструменты</h3>
 
             <p className="text-center text-sm">
-              Наш отдел разработки обеспечит стабильную и беспрерывную работу
-              вашего сервиса или сайта
+              Многие маркетплейсы предоставляют специальные инструменты для
+              продвижения, такие как рекламные возможности, специальные акции,
+              что помогает привлечь внимание к вашему предложению и стимулирует
+              продажи.
             </p>
           </div>
         </div>

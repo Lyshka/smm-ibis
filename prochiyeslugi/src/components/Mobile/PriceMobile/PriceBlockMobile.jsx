@@ -9,7 +9,7 @@ const PriceBlockMobile = ({ priceByn, priceRub, services, desc }) => {
 
   return (
     <div className="min-w-[264px] shadowPrice rounded-2xl">
-      <h3 className="px-6 py-4">Прочие услуги:</h3>
+      <h3 className="px-6 py-4 h-40">{services[0]}</h3>
 
       <div className="bg-[#FF3A2D] p-6 h-52 text-white w-full">
         <div className="flex text-lg justify-center items-center flex-col gap-y-4">
@@ -25,7 +25,7 @@ const PriceBlockMobile = ({ priceByn, priceRub, services, desc }) => {
         </div>
       </div>
 
-      <div className="flex flex-col">
+      {/* <div className="flex flex-col">
         <div
           onClick={handleBlock}
           className="flex gap-x-2 justify-center cursor-pointer items-center w-full h-14"
@@ -82,7 +82,7 @@ const PriceBlockMobile = ({ priceByn, priceRub, services, desc }) => {
             )}
           </div>
         )}
-      </div>
+      </div> */}
 
       <div className="flex justify-center items-center p-6">
         <a href="#form">

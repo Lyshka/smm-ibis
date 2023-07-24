@@ -2,10 +2,10 @@ const Edges = () => {
   return (
     <div>
       <div className="flex flex-col">
-        <h2>Преимущества наших сайтов</h2>
+        <h2>Почему стоит заказать таргетированную рекламу?</h2>
 
         <div className="mt-6 flex justify-between items-center">
-          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-[317px] h-[224px] px-[33px] py-6">
+          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-[317px] h-[300px] px-[33px] py-6">
             <svg
               width="64"
               height="64"
@@ -23,15 +23,16 @@ const Edges = () => {
               />
             </svg>
 
-            <h3 className="mt-4">Узнаваемость бренда</h3>
+            <h3 className="mt-4 text-center">Высокая эффективность</h3>
 
             <p className="text-center text-sm">
-              Учитываем ваши идеи и фирменный стиль организации. Увеличиваем
-              количество клиентов, так же повышаем узнаваемость бренда
+              Реклама нацелена на определенную аудиторию с учетом их интересов,
+              поведения и характеристик, что увеличивает вероятность привлечения
+              заинтересованных клиентов и конверсии.
             </p>
           </div>
 
-          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-[317px] h-[224px] px-[33px] py-6">
+          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-[317px] h-[300px] px-[33px] py-6">
             <svg
               width="64"
               height="64"
@@ -57,15 +58,15 @@ const Edges = () => {
               />
             </svg>
 
-            <h3 className="mt-4">Понятный интерфейс</h3>
+            <h3 className="mt-4 text-center">Оптимизация затрат</h3>
 
             <p className="text-center text-sm">
-              Благодаря нашему креативному отделу мы доносим до клиента главные
-              преимущества продукта или услуги
+              Позволяет эффективно использовать рекламный бюджет, минимизируя
+              рассеивание рекламных затрат на неподходящую аудиторию.
             </p>
           </div>
 
-          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-[317px] h-[224px] px-[33px] py-6">
+          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-[317px] h-[300px] px-[33px] py-6">
             <svg
               width="64"
               height="64"
@@ -115,11 +116,12 @@ const Edges = () => {
               />
             </svg>
 
-            <h3 className="mt-4">Надежный сервис</h3>
+            <h3 className="mt-4 text-center">Персонализация сообщений</h3>
 
             <p className="text-center text-sm">
-              Наш отдел разработки обеспечит стабильную и беспрерывную работу
-              вашего сервиса или сайта
+              Позволяет предлагать индивидуальные предложения и акции, что
+              улучшает взаимодействие с потенциальными клиентами и повышает их
+              лояльность к бренду.
             </p>
           </div>
         </div>

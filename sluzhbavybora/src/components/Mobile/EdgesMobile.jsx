@@ -2,10 +2,10 @@ const EdgesMobile = () => {
   return (
     <div className="mt-10 flex justify-center items-center">
       <div className="flex flex-col w-[288px] justify-center items-center">
-        <h2>Преимущества наших сайтов</h2>
+        <h2>Почему стоит подключить Booking service?</h2>
 
         <div className="mt-6 flex flex-col gap-y-6 justify-between items-center">
-          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-full h-[224px] px-[33px] py-6">
+          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-full h-full px-[33px] py-6">
             <svg
               width="64"
               height="64"
@@ -23,15 +23,16 @@ const EdgesMobile = () => {
               />
             </svg>
 
-            <h3 className="mt-4">Узнаваемость бренда</h3>
+            <h3 className="mt-4 text-center">Удобное бронирование</h3>
 
             <p className="text-center text-sm">
-              Учитываем ваши идеи и фирменный стиль организации. Увеличиваем
-              количество клиентов, так же повышаем узнаваемость бренда
+              Пользователи могут легко и быстро забронировать желаемые услуги
+              или товары через онлайн-платформу, без необходимости посещения
+              физических точек или звонков.
             </p>
           </div>
 
-          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-full h-[224px] px-[33px] py-6">
+          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-full h-full px-[33px] py-6">
             <svg
               width="64"
               height="64"
@@ -57,15 +58,16 @@ const EdgesMobile = () => {
               />
             </svg>
 
-            <h3 className="mt-4">Понятный интерфейс</h3>
+            <h3 className="mt-4 text-center">Гарантированные места</h3>
 
             <p className="text-center text-sm">
-              Благодаря нашему креативному отделу мы доносим до клиента главные
-              преимущества продукта или услуги
+              Система бронирования позволяет клиентам забронировать нужные даты
+              и услуги заранее, обеспечивая им гарантированные места и удобство
+              в использовании услуги.
             </p>
           </div>
 
-          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-full h-[224px] px-[33px] py-6">
+          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-full h-full px-[33px] py-6">
             <svg
               width="64"
               height="64"
@@ -115,11 +117,14 @@ const EdgesMobile = () => {
               />
             </svg>
 
-            <h3 className="mt-4">Надежный сервис</h3>
+            <h3 className="mt-4 text-center">
+              Эффективное время использования
+            </h3>
 
             <p className="text-center text-sm">
-              Наш отдел разработки обеспечит стабильную и беспрерывную работу
-              вашего сервиса или сайта
+              Благодаря бронированию онлайн, клиенты могут оптимизировать свое
+              время, выбирая удобное для них расписание, что повышает
+              удовлетворенность и лояльность к сервису.
             </p>
           </div>
         </div>

@@ -2,10 +2,10 @@ const Edges = () => {
   return (
     <div>
       <div className="flex flex-col">
-        <h2>Преимущества наших сайтов</h2>
+        <h2>Почему стоит заказать SEO продвижение?</h2>
 
         <div className="mt-6 flex justify-between items-center">
-          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-[317px] h-[224px] px-[33px] py-6">
+          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-[317px] h-80 px-[33px] py-6">
             <svg
               width="64"
               height="64"
@@ -23,15 +23,16 @@ const Edges = () => {
               />
             </svg>
 
-            <h3 className="mt-4">Узнаваемость бренда</h3>
+            <h3 className="mt-4">Повышение видимости</h3>
 
             <p className="text-center text-sm">
-              Учитываем ваши идеи и фирменный стиль организации. Увеличиваем
-              количество клиентов, так же повышаем узнаваемость бренда
+              Оптимизируем ваш сайт, чтобы он лучше понимался поисковыми
+              системами, что помогает увеличить его рейтинг и привлечь больше
+              органического трафика.
             </p>
           </div>
 
-          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-[317px] h-[224px] px-[33px] py-6">
+          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-[317px] h-80 px-[33px] py-6">
             <svg
               width="64"
               height="64"
@@ -57,15 +58,16 @@ const Edges = () => {
               />
             </svg>
 
-            <h3 className="mt-4">Понятный интерфейс</h3>
+            <h3 className="mt-4">Целевой трафик</h3>
 
             <p className="text-center text-sm">
-              Благодаря нашему креативному отделу мы доносим до клиента главные
-              преимущества продукта или услуги
+              Нацеливаемся на ключевые слова и запросы, связанные с вашим
+              бизнесом, чтобы привлечь именно тех пользователей, которые ищут
+              вашу продукцию или услугу.
             </p>
           </div>
 
-          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-[317px] h-[224px] px-[33px] py-6">
+          <div className="border flex flex-col items-center justify-center border-[#BBBBBB] rounded-2xl w-[317px] h-80 px-[33px] py-6">
             <svg
               width="64"
               height="64"
@@ -115,11 +117,12 @@ const Edges = () => {
               />
             </svg>
 
-            <h3 className="mt-4">Надежный сервис</h3>
+            <h3 className="mt-4">Долгосрочные результаты</h3>
 
             <p className="text-center text-sm">
-              Наш отдел разработки обеспечит стабильную и беспрерывную работу
-              вашего сервиса или сайта
+              SEO продвижение строит устойчивый онлайн-профиль вашего бизнеса,
+              что способствует увеличению органического трафика и приводит к
+              долгосрочной успешности вашего веб-присутствия.
             </p>
           </div>
         </div>
