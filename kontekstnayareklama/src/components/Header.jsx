@@ -1,8 +1,8 @@
 const Header = () => {
   return (
     <>
-      <div className="h-24 pr-4 my-4 w-full max-w-[1300px] md:block hidden">
-        <div className="flex justify-between items-center">
+      <div className="h-24 my-4 w-full top-[-16px] z-[10000] left-0 bg-[#fff] md:block hidden fixed">
+        <div className="flex justify-center gap-x-32 items-center">
           <div>
             <a href="/">
               <img

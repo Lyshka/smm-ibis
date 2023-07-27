@@ -1,6 +1,6 @@
 const Address = () => {
   return (
-    <div className="mt-12 w-full flex">
+    <div className="mt-12 w-full flex relative z-[9999] bg-[#fff]">
       <div className="px-[151px] w-[640px] py-24 border-t border-r border-[#BBBBBB]">
         <div className="flex flex-col gap-y-4 justify-center items-center">
           <svg

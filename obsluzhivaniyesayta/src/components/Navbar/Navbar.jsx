@@ -2,7 +2,7 @@ import NavbarBlock from "./NavbarBlock";
 
 const Navbar = () => {
   return (
-    <div className="min-w-[221px]">
+    <div className="min-w-[221px] overflow-hidden overflow-y-scroll h-[800px] sticky top-10 navbar">
       <NavbarBlock url={"https://smm-ibis.by/site-creation/"} title={"Разработка сайта"}/>
       <NavbarBlock url={"https://smm-ibis.by/obsluzhivaniyesayta/"} check title={"Обслуживание сайта"}/>
       <NavbarBlock url={"https://smm-ibis.by/kontekstnayareklama/"} title={"Контекстная реклама"}/>

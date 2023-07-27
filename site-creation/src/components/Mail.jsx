@@ -28,7 +28,7 @@ const Mail = () => {
   };
 
   return (
-    <div className="h-[264px] relative mt-10" id="form">
+    <div className="h-[264px] mt-10 relative bg-[#fff] z-[9999]" id="form">
       <div className="absolute h-full w-full">
         <div className="bg-black/50 absolute z-10 h-full w-full">&nbsp;</div>
         <img

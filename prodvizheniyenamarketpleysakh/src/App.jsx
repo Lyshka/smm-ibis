@@ -24,18 +24,18 @@ const App = () => {
         <div className="flex w-full justify-center items-center">
           <Header />
         </div>
-        <div className="flex flex-col justify-start items-center container-[1300px]">
+        <div className="flex mt-24 flex-col justify-start items-center container-[1300px]">
           <div className="flex w-full max-w-[1300px]">
             <Navbar />
-
             <MainPrice />
           </div>
         </div>
-
-        <Mail />
-        <Address />
-        <Footer />
-        <Toaster />
+        <div className="relative z-[9999] bg-white">
+          <Mail />
+          <Address />
+          <Footer />
+          <Toaster />
+        </div>
       </div>
 
       <div className="md:hidden block">
