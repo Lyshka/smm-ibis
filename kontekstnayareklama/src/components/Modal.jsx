@@ -1,12 +1,11 @@
-const Modal = ({url, modal, setModal}) => {
-
+const Modal = ({ url, modal, setModal, refs }) => {
   return (
-    <div className={`bg-black/50 z-30 flex justify-center items-center w-full h-screen top-0 left-0 ${modal ? "fixed" : "hidden"}`}>
-      <img
-        src={url}
-        alt="T1"
-        className="w-[800px] h-[800px]"
-      />
+    <div
+      className={`bg-black/50 z-[99999] flex justify-center items-center w-full h-screen top-0 left-0 ${
+        modal ? "fixed" : "hidden"
+      }`}
+    >
+      <img ref={refs} src={url} alt="T1" className="w-[800px] h-[800px]" />
       <svg
         width="64"
         height="64"
