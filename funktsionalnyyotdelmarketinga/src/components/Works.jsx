@@ -14,15 +14,14 @@ const Works = () => {
     const { data } = await axios.get(
       `https://smm-ibis.by//wp-json/wp/v2/portfolio?per_page=${morePhoto}`
     );
+    const jac = data.filter(el => el.title.rendered === "JAC")
 
-    setWork([data[0], data[1]]);
+    setWork(jac);
   };
 
   useEffect(() => {
     getWorkHalf();
   }, [morePhoto]);
-
-  console.log(work);
 
   return (
     <div>
