@@ -96,9 +96,6 @@ const HeaderMobile = () => {
               <a href="https://smm-ibis.by/">Главная</a>
             </li>
             <li>
-              <a href="https://smm-ibis.by/#onas">О нас</a>
-            </li>
-            <li>
               <a href="https://smm-ibis.by/#portf">Портфолио</a>
             </li>
             <li>
