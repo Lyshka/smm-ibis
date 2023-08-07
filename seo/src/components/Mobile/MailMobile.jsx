@@ -28,7 +28,7 @@ const MailMobile = () => {
   };
 
   return (
-    <div className="h-[496px] flex justify-center items-center relative mt-10" id="form">
+    <div className="h-[496px] flex justify-center items-center relative mt-10" id="formMobile">
       <div className="absolute h-full w-full">
         <div className="bg-black/50 absolute z-10 h-full w-full">&nbsp;</div>
         <img

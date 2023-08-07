@@ -18,7 +18,7 @@ const AboutMobile = () => {
           </div>
         </div>
 
-        <a href="#form" className="flex justify-center mt-4 items-center">
+        <a href="#formMobile" className="flex justify-center mt-4 items-center">
           <button className="font-medium text-sm border-2 px-6 py-4 hover:bg-[#FF3A2D] hover:text-white border-[#FF3A2D] rounded-full">
             Получить предложение
           </button>
