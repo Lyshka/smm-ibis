@@ -40,13 +40,9 @@ const MailMobile = () => {
 
       <div className={`w-[288px] relative z-20`}>
         <div className="flex w-full items-center justify-center flex-col">
-          <span className="text-[#F4F4F4] w-full text-center text-sm uppercase">
-            Заполните форму и мы Вам поможем
-          </span>
-
           <div className="flex justify-center w-full items-center flex-col">
             <h1 className="mb-4 text-[22px] text-center text-white">
-              Начните с аудита сайта
+            Заполните форму и мы Вам поможем
             </h1>
             <div className="bg-[#FF3A2D] w-24 h-[1px]">&nbsp;</div>
           </div>
@@ -68,15 +64,9 @@ const MailMobile = () => {
             <input
               required
               className="rounded-full"
-              type="email"
-              placeholder="Email *"
-              name="email"
-            />
-            <input
-              className="rounded-full"
-              type="url"
-              placeholder="Сайт: www.site.by"
-              name="url"
+              type="tel"
+              placeholder="+375..."
+              name="tel"
             />
             <button
               type="submit"

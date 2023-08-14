@@ -18,8 +18,8 @@ const Mail = () => {
       .then(
         (result) => {
           console.log(result.text);
-          toast.success("Ваше сообщение успешно отправлено")
-          e.target.reset()
+          toast.success("Ваше сообщение успешно отправлено");
+          e.target.reset();
         },
         (error) => {
           console.log(error.text);
@@ -40,20 +40,20 @@ const Mail = () => {
 
       <div className={`min-w-[1079px] top-12 relative z-20`}>
         <div className="flex items-center justify-center flex-col">
-          <span className="text-[#A7A7A7] text-sm uppercase">
-            Заполните форму и мы Вам поможем
-          </span>
-
           <div className="flex justify-center items-center flex-col">
             <h1 className="mb-4 text-[22px] text-white">
-              Начните с аудита сайта
+              Заполните форму и мы Вам поможем
             </h1>
             <div className="bg-[#FF3A2D] w-24 h-[1px]">&nbsp;</div>
           </div>
         </div>
 
         <div className="w-full flex justify-center items-center mt-12">
-          <form ref={form} onSubmit={sendEmail} className="relative z-20 flex justify-center gap-6 items-center">
+          <form
+            ref={form}
+            onSubmit={sendEmail}
+            className="relative z-20 flex justify-center gap-6 items-center"
+          >
             <input
               required
               className="rounded-full"
@@ -64,17 +64,14 @@ const Mail = () => {
             <input
               required
               className="rounded-full"
-              type="email"
-              placeholder="Email *"
-              name="email"
+              type="tel"
+              placeholder="+375..."
+              name="tel"
             />
-            <input
-              className="rounded-full"
-              type="url"
-              placeholder="Сайт: www.site.by"
-              name="url"
-            />
-            <button type="submit" className="bg-[#FF3A2D] border-2 border-[#FF3A2D] text-white hover:bg-white hover:text-black rounded-full px-6 py-4 w-[307px] h-[48px] flex justify-center items-center text-lg uppercase">
+            <button
+              type="submit"
+              className="bg-[#FF3A2D] border-2 border-[#FF3A2D] text-white hover:bg-white hover:text-black rounded-full px-6 py-4 w-[307px] h-[48px] flex justify-center items-center text-lg uppercase"
+            >
               получить КП
             </button>
           </form>
