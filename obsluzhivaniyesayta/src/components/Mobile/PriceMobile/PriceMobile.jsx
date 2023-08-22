@@ -42,9 +42,19 @@ const PriceMobile = () => {
       <h2 className="px-4">Наши цены</h2>
 
       <div className="flex justify-start py-2 items-center overflow-x-auto gap-6 mt-6 px-4">
-        <PriceBlockMobile priceByn={400} priceRub={15000} services={services} month />
-        <PriceBlockMobile priceByn={600} priceRub={20000} services={services} month/>
-        <PriceBlockMobile priceByn={18} priceRub={500} services={services} />
+        <PriceBlockMobile
+          priceByn={400}
+          priceRub={15000}
+          services={services}
+          month
+        />
+        <PriceBlockMobile
+          priceByn={600}
+          priceRub={20000}
+          services={services2}
+          month
+        />
+        <PriceBlockMobile priceByn={18} priceRub={500} services={services3} />
       </div>
     </div>
   );
