@@ -21,7 +21,7 @@ const Header = () => {
             </span>
             <span className="text-[#FF3A2D] cursor-pointer header">Услуги и цены</span>
             <span className="hover:text-[#FF3A2D] cursor-pointer header">
-              <a href="https://smm-ibis.by/48-best-wordpress-themes/">
+              <a href="https://smm-ibis.by/business/">
                 Новости
               </a>
             </span>
